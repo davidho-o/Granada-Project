@@ -1,0 +1,25 @@
+#header {
+  background-color: #fff67e;
+  margin-left: 20px;
+  display: flex;
+}
+
+.textHeader {
+  padding-right: 50px;
+  font-size: 16px;
+}
+
+.buttonHeader {
+  background: none;
+  border: none;
+  padding-right: 50px;
+  font-size: 16px;
+}
+
+.buttonHeader:hover {
+  color: #416d19;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=index.fa99d8e4.css.map */

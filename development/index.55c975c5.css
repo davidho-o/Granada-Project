@@ -1,0 +1,153 @@
+#header {
+  background-image: linear-gradient(125deg, #fff67e, #bfea7c);
+  height: 65px;
+  padding-left: 50px;
+  display: flex;
+}
+
+#header .textHeader {
+  color: #263f0e;
+  padding-right: 50px;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+#header .buttonHeader {
+  text-wrap: nowrap;
+  background: none;
+  border: none;
+  padding-right: 50px;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+#header .buttonHeader:hover {
+  color: #416d19;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#header #input {
+  border-style: solid;
+  border-color: #416d19;
+  border-radius: 10px;
+  align-self: center;
+  padding: 8px;
+  right: 50px;
+}
+
+#header .search {
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  padding-right: 50px;
+  display: flex;
+}
+
+#header #buttonSearch {
+  color: #9bcf53;
+  background-color: #416d19;
+  border-style: none;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 40px;
+  line-height: 35px;
+}
+
+#header #buttonSearch:hover {
+  cursor: pointer;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 65px);
+  display: flex;
+}
+
+.container .soare {
+  width: 400px;
+  height: 330px;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.container .splash {
+  z-index: 1;
+  width: 1200px;
+  height: 800px;
+}
+
+.container .welcome {
+  z-index: 2;
+  color: #1e3508;
+  padding-left: 400px;
+  padding-right: 400px;
+  font-family: cursive;
+  font-weight: bolder;
+  position: absolute;
+}
+
+.container .smiley {
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+  padding-top: 280px;
+  padding-left: 460px;
+  position: absolute;
+}
+
+.oneRecipe {
+  background-color: #bfea7c;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  overflow: scroll;
+}
+
+.recipeContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.reteta {
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+.textRecipe {
+  color: #111d05;
+  text-overflow: ellipsis;
+  height: 100px;
+  font-size: larger;
+}
+
+.textRecipe:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+html, body {
+  background-color: #fffcd7;
+  margin: 0;
+  padding: 0;
+}
+
+.ankor {
+  color: #1e3508;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.55c975c5.css.map */
